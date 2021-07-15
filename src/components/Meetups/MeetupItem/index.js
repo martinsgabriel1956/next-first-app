@@ -1,4 +1,4 @@
-import { useRouter } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 import { Container, Image, Content, Actions } from './styles';
 import { Card } from '../../UI/Card';

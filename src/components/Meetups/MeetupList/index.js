@@ -1,7 +1,7 @@
 import { Container } from './styles';
 import { MeetupItem } from '../MeetupItem';
 
-export function MeetupList(props) {
+function MeetupList(props) {
   return (
     <Container>
       {props.meetups.map(meetup => (
@@ -16,3 +16,5 @@ export function MeetupList(props) {
     </Container>
   );
 };
+
+export default MeetupList;

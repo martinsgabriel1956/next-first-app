@@ -1,6 +1,6 @@
 import { Link } from 'next/link';
 
-import { Container } from './styles';
+import { Container, Logo } from './styles';
 
 export function MainNavigation() {
   return (
