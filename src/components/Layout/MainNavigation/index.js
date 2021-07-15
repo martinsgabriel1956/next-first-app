@@ -1,5 +1,6 @@
-import { Container } from './styles';
 import { Link } from 'next/link';
+
+import { Container } from './styles';
 
 export function MainNavigation() {
   return (
