@@ -2,7 +2,7 @@ import { Link } from 'next/link';
 
 import { Container, Logo } from './styles';
 
-export function MainNavigation() {
+function MainNavigation() {
   return (
     <Container>
       <Logo>React Meetups</Logo>
@@ -19,3 +19,5 @@ export function MainNavigation() {
     </Container>
   );
 };
+
+export default MainNavigation;

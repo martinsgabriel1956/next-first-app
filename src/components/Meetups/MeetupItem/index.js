@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router';
 
 import { Container, Image, Content, Actions } from './styles';
-import { Card } from '../../UI/Card';
+import Card from '../../UI/Card';
 
-export function MeetupItem(props) {
+function MeetupItem(props) {
   const router = useRouter();
 
   function handleShowDetails() {
@@ -27,3 +27,5 @@ export function MeetupItem(props) {
     </Container>
   );
 };
+
+export default MeetupItem;

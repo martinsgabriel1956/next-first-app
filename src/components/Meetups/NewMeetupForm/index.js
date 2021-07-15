@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import { Container, Control, Actions } from "./styles";
 
-import { Card } from "../../UI/Card";
+import Card from "../../UI/Card";
 
-export function NewMeetupForm() {
+function NewMeetupForm() {
   const titleInputRef = useRef();
   const imageInputRef = useRef();
   const addressInputRef = useRef();
@@ -58,3 +58,5 @@ export function NewMeetupForm() {
     </Card>
   );
 }
+
+export default NewMeetupForm;

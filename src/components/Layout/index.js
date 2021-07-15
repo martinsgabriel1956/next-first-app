@@ -1,7 +1,7 @@
 import { Container } from "./styles";
-import { MainNavigation } from "./MainNavigation";
+import MainNavigation from "./MainNavigation";
 
-export function Layout({ children }, ...props) {
+function Layout({ children }, ...props) {
   return (
     <>
       <MainNavigation />
@@ -9,3 +9,5 @@ export function Layout({ children }, ...props) {
     </>
   );
 }
+
+export default Layout;

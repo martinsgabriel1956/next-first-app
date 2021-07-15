@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-export function Card({children}, ...props) {
+function Card({children}, ...props) {
   return (
     <Container>
       {Children}
@@ -8,3 +8,4 @@ export function Card({children}, ...props) {
   );
 };
 
+export default Card;

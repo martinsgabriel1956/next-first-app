@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-export function MeetupDetail(props) {
+function MeetupDetail(props) {
   return (
     <Container>
       <img
@@ -14,4 +14,4 @@ export function MeetupDetail(props) {
   );
 };
 
-
+export default MeetupDetail;
