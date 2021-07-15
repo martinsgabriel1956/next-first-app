@@ -30,7 +30,7 @@ export function NewMeetupForm() {
   return (
     <Card>
       <Container onSubmit={handleSubmit}>
-        <Control className={classes.control}>
+        <Control>
           <label htmlFor='title'>Meetup Title</label>
           <input type='text' required id='title' ref={titleInputRef} />
         </Control>

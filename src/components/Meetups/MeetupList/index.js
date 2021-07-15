@@ -1,7 +1,7 @@
 import { Container } from './styles';
 import { MeetupItem } from '../MeetupItem';
 
-export function MeetupList() {
+export function MeetupList(props) {
   return (
     <Container>
       {props.meetups.map(meetup => (

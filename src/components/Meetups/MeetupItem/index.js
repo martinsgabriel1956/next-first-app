@@ -1,3 +1,5 @@
+import { useRouter } from 'react-router-dom';
+
 import { Container, Image, Content, Actions } from './styles';
 import { Card } from '../../UI/Card';
 
@@ -19,7 +21,7 @@ export function MeetupItem(props) {
           <address>{props.address}</address>
         </Content>
         <Actions>
-          <button onClick={handleShowDetails} >Show Details</button>
+          <button onClick={handleShowDetails}>Show Details</button>
         </Actions>
       </Card>
     </Container>

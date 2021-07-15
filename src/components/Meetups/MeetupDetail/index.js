@@ -1,6 +1,6 @@
 import { Container } from './styles';
 
-export function MeetupDetail() {
+export function MeetupDetail(props) {
   return (
     <Container>
       <img
