@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import { MeetupItem } from '../MeetupItem';
 
 export function MeetupList() {
   return (
